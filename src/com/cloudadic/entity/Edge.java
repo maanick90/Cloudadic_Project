@@ -47,7 +47,7 @@ public class Edge {
 	 * toString() overriden method
 	 */
 	public String toString() {
-		return "("+node1.getFirstName()+","+node2.getFirstName()+","+edgeRelation+")";
+		return "("+node1.getFirstName()+", "+edgeRelation + ", " + node2.getFirstName()+")";
 	}
 	
 }

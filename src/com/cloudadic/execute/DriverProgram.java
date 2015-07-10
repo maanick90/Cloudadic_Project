@@ -8,6 +8,11 @@ import java.io.IOException;
 
 import com.cloudadic.domain.OperatorFunction;
 
+/**
+ * Class which takes the input from a text file and calls methods in Operation Function to create the graph of contacts
+ * @author Maaniccka Poonkundran
+ *
+ */
 public class DriverProgram {
 
 	public static void main(String[] args) {
@@ -16,8 +21,8 @@ public class DriverProgram {
 		BufferedReader br = null;
 		String line;
 		try {
-			br = new BufferedReader(new FileReader(new File("InputContacts.txt")));
-			op.addRootNode(br.readLine());
+			br = new BufferedReader(new FileReader(new File("InputContacts.txt")));		// reading from the input file
+			op.addRootNode(br.readLine());			// adding the first node
 			while( (line = br.readLine()) != null) 
 				op.addAllNodes(line);
 			br.close();
@@ -27,8 +32,9 @@ public class DriverProgram {
 			e.printStackTrace();
 		}
 
-		op.graph.PrintGraph();
-		op.graph.PrintEdges();
+		// Print all nodes and all edges
+		op.graph.PrintAllNodes();
+		op.graph.PrintAllEdges();
 		
 	}
 }

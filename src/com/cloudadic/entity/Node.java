@@ -34,8 +34,8 @@ public class Node {
 	 * @param mobileNo
 	 * @param address
 	 */
-	public Node(Integer id, String firstName, String lastName, String mobileNo, String address) {
-		this.id = id;
+	public Node(String firstName, String lastName, String mobileNo, String address) {
+		this.id = 0;
 		this.seen = false;
 		this.adjListEdges = new LinkedList<Edge>();
 		
@@ -78,7 +78,7 @@ public class Node {
 	 * toString() overriden method
 	 */
 	public String toString() {
-		return "(" + id + ", " + firstName + " " + lastName + ", " + mobileNo + ")";
+		return "(" + id + ", " + firstName + " " + lastName + ", " + mobileNo + ", "+address+")";
 	}
 }
 
