@@ -1,0 +1,10 @@
+Maaniccka, Poonkundran, 4077199646, Frisco, NIL, NIL, NIL
+Poonkundran, Manickam, 1234567890, Chidambaram, Maaniccka, Father, 4077199646
+Meenakshi, Poonkundran, 1234567891, Chidambaram, Maaniccka, Mother, 4077199646
+Nangai, Subramanian, 1234567892, New Jersey, Maaniccka, Sister, 4077199646
+Abirami, Karthikeyan, 1234567893, Dallas, Maaniccka, Sister, 4077199646
+Subramanian, Ramanathan, 1234567894, New Jersey, Nangai, Husband, 1234567892
+Karthikeyan, Thiagarajan, 1234567895, Dallas, Abirami, Husband, 1234567893
+Arthi, Subramanian, 1234567896, New York, Nangai, Daughter, 1234567892
+Arthi, Subramanian, 1234567896, New York, Subramanian, Daughter, 1234567894
+Siva, Subramanian, 1234567897, New York, Nangai, Son, 1234567892

@@ -78,7 +78,7 @@ public class Node {
 	 * toString() overriden method
 	 */
 	public String toString() {
-		return "(" + id + "," + firstName + " " + lastName + ", " + mobileNo + ")";
+		return "(" + id + ", " + firstName + " " + lastName + ", " + mobileNo + ")";
 	}
 }
 
